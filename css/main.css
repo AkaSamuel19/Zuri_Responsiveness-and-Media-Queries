@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    font-family: Poppins;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 100px 0 0 220px;
+    display: flex;
+    text-align: center;
+}
+.container .section{
+    
+}
+.text{
+    color: white;
+    text-align: left;
+    width: 20%;
+    padding: 50px;
+    padding-top: 4cm;
+}
+.container h1{
+    
+}
+.button-top{
+    background: #5C54A2;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    width: 470px;
+    height: 45px;
+}
+.button-bottom{
+    background: hsl(154, 59%, 51%);
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    border-style: none;
+    width: 390px;
+    height: 45px;
+}
+.container .section .container-box{
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+    width: 470px;
+    height: 400px;
+    margin: 0 0 10px 0;
+}
+.section .button-top{
+    
+}
+.field{
+    width: 370px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #B7B4BB;
+    border-style: ridge;
+}
+.container-box p{
+    font-size: 12px;
+}
+#terms{
+    color: red;
+}
+#bottom{
+    color: #DDDAE2;
+}
+#thin{
+    color: #D4CEFF;
+}
